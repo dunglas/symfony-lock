@@ -1,0 +1,72 @@
+{
+  "name": "dunglas/symfony-lock",
+  "description": "Enforces that all Symfony components use the same major version",
+  "type": "metapackage",
+  "homepage": "https://dunglas.fr",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kévin Dunglas",
+      "email": "dunglas@gmail.com"
+    }
+  ],
+  "conflict": {
+    "symfony/asset": "<3,>=4",
+    "symfony/browser-kit": "<3,>=4",
+    "symfony/cache": "<3,>=4",
+    "symfony/class-loader": "<3,>=4",
+    "symfony/config": "<3,>=4",
+    "symfony/console": "<3,>=4",
+    "symfony/css-selector": "<3,>=4",
+    "symfony/dependency-injection": "<3,>=4",
+    "symfony/debug": "<3,>=4",
+    "symfony/debug-bundle": "<3,>=4",
+    "symfony/doctrine-bridge": "<3,>=4",
+    "symfony/dom-crawler": "<3,>=4",
+    "symfony/dotenv": "<3,>=4",
+    "symfony/event-dispatcher": "<3,>=4",
+    "symfony/expression-language": "<3,>=4",
+    "symfony/filesystem": "<3,>=4",
+    "symfony/finder": "<3,>=4",
+    "symfony/form": "<3,>=4",
+    "symfony/framework-bundle": "<3,>=4",
+    "symfony/http-foundation": "<3,>=4",
+    "symfony/http-kernel": "<3,>=4",
+    "symfony/inflector": "<3,>=4",
+    "symfony/intl": "<3,>=4",
+    "symfony/ldap": "<3,>=4",
+    "symfony/lock": "<3,>=4",
+    "symfony/monolog-bridge": "<3,>=4",
+    "symfony/options-resolver": "<3,>=4",
+    "symfony/process": "<3,>=4",
+    "symfony/property-access": "<3,>=4",
+    "symfony/property-info": "<3,>=4",
+    "symfony/proxy-manager-bridge": "<3,>=4",
+    "symfony/routing": "<3,>=4",
+    "symfony/security": "<3,>=4",
+    "symfony/security-core": "<3,>=4",
+    "symfony/security-csrf": "<3,>=4",
+    "symfony/security-guard": "<3,>=4",
+    "symfony/security-http": "<3,>=4",
+    "symfony/security-bundle": "<3,>=4",
+    "symfony/serializer": "<3,>=4",
+    "symfony/stopwatch": "<3,>=4",
+    "symfony/symfony": "<3,>=4",
+    "symfony/templating": "<3,>=4",
+    "symfony/translation": "<3,>=4",
+    "symfony/twig-bridge": "<3,>=4",
+    "symfony/twig-bundle": "<3,>=4",
+    "symfony/validator": "<3,>=4",
+    "symfony/var-dumper": "<3,>=4",
+    "symfony/web-link": "<3,>=4",
+    "symfony/web-profiler-bundle": "<3,>=4",
+    "symfony/web-server-bundle": "<3,>=4",
+    "symfony/workflow": "<3,>=4",
+    "symfony/yaml": "<3,>=4"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "3-dev"
+    }
+  }
+}
