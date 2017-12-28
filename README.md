@@ -23,7 +23,7 @@ integration systems. It should NOT be added directly to the project's
 Difference with `symfony/lts`
 -----------------------------
 
-`symfony/lts` enforces that your project don't use use a version not released
+`symfony/lts` enforces that your project doesn't use a version not released
 as a LTS, but does not enforce that all your Symfony packages are in the same
 major version. For instance, when using `symfony/lts` v3, some packages
 can be installed in version 3.4, and some others in version 2.8.
