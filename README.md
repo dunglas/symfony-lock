@@ -1,6 +1,8 @@
 Locking a Symfony Project to a Specific Major Version of the Framework
 ======================================================================
 
+**Deprecation notice: [Symfony Flex](https://github.com/symfony/flex) now natively support this feature, [you can use it in your CI instead directly](https://github.com/symfony/flex/pull/409#issuecomment-412794585). This package is no longer maintained.**
+
 Using `symfony/symfony` makes Composer install all Symfony Components, all in
 the same version. But when using the standalone packages (the Symfony Flex way),
 Composer might install dependencies in a different major version (`symfony/http-kernel`
