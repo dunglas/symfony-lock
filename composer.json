@@ -36,6 +36,7 @@
     "symfony/intl": "<4 || >=5",
     "symfony/ldap": "<4 || >=5",
     "symfony/lock": "<4 || >=5",
+    "symfony/messenger": "<4 || >=5",
     "symfony/monolog-bridge": "<4 || >=5",
     "symfony/options-resolver": "<4 || >=5",
     "symfony/process": "<4 || >=5",
