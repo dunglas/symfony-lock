@@ -36,5 +36,5 @@ Usage
 Use the Composer command line:
 
 ```bash
-composer require dunglas/symfony-lock v4
+composer require --dev dunglas/symfony-lock v4
 ```
